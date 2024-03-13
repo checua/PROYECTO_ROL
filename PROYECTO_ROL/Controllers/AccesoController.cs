@@ -58,7 +58,7 @@ namespace PROYECTO_ROL.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             #endregion
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index","Acceso");
 
         }
     }
